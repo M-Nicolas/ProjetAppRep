@@ -2,6 +2,7 @@ package client;
 
 import common.ReceiveMessageInterface;
 
+import java.io.*;
 import java.rmi.*;
 import java.rmi.registry.*;
 
@@ -9,6 +10,32 @@ import java.rmi.registry.*;
  * Created by nicolas on 21/05/16.
  */
 public class Client {
+
+    static public void serialize(Object object) {
+        try {
+            File fichier =  new File("tmp/object.ser") ;
+            ObjectOutputStream oos =  new ObjectOutputStream(new FileOutputStream(fichier));
+            oos.writeObject(object);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    static public Object unserialize() {
+        try {
+            File fichier =  new File("tmp/object.ser") ;
+            ObjectInputStream ois =  new ObjectInputStream(new FileInputStream(fichier)) ;
+            Object m = (Object)ois.readObject() ;
+            return m;
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 
     static public void callMethodRegistry() {
         //TODO : Implémenter une méthode d'appel au registre.
