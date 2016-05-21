@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cece558-67a7-484b-b80e-356f73c91e25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClassServer/ClassServer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClassServer/src/classserver/ClassFileServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClassServer/src/classserver/ClassServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Registry/Registry.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Registry/src/ServeurRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Registry/src/object/ObjectRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Registry/src/object/ObjectRegistryInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Registry/src/object/ObjectSharedBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/client/Client.java" afterPath="$PROJECT_DIR$/ClientServer/src/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/common/ReceiveMessageInterface.java" afterPath="$PROJECT_DIR$/ClientServer/src/ReceiveMessageInterface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/serveur/Serveur.java" afterPath="$PROJECT_DIR$/ClientServer/src/Serveur.java" />
-    </list>
+    <list default="true" id="1cece558-67a7-484b-b80e-356f73c91e25" name="Default" comment="" />
     <ignored path="ProjetAppRep.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -208,6 +196,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ProjetAppRep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetAppRep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetAppRep" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClientServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -733,12 +735,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463841771948</updated>
-      <workItem from="1463841775558" duration="5749000" />
+      <workItem from="1463841775558" duration="6710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5749000" />
+    <option name="totallyTimeSpent" value="6710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="-3" width="1322" height="771" extended-state="6" />
