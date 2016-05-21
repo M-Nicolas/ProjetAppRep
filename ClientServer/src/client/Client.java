@@ -1,3 +1,7 @@
+package client;
+
+import common.ReceiveMessageInterface;
+
 import java.rmi.*;
 import java.rmi.registry.*;
 

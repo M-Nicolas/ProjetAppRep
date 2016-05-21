@@ -1,3 +1,6 @@
+package serveur;
+
+import common.ReceiveMessageInterface;
 import java.rmi.*;
 import java.rmi.registry.*;
 import java.net.*;
@@ -6,13 +9,13 @@ import java.net.*;
  * Created by nicolas on 21/05/16.
  */
 public class Serveur extends java.rmi.server.UnicastRemoteObject implements ReceiveMessageInterface {
-    //Port, adresse et registre du Serveur
+    //Port, adresse et registre du serveur
     int      thisPort;
     String   thisAddress;
     Registry registry;
 
     /**
-     * On initialise le Serveur et lance l'execution.
+     * On initialise le serveur et lance l'execution.
      * @throws RemoteException
      */
     public Serveur() throws RemoteException {
