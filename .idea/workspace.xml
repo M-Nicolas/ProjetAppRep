@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cece558-67a7-484b-b80e-356f73c91e25" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Registry/out/ServeurRegistry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Registry/out/object/ObjectRegistry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Registry/out/object/ObjectRegistryInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Registry/out/object/ObjectSharedBase.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClientServer/src/client/Client.java" afterPath="$PROJECT_DIR$/ClientServer/src/client/Client.java" />
-    </list>
+    <list default="true" id="1cece558-67a7-484b-b80e-356f73c91e25" name="Default" comment="" />
     <ignored path="ProjetAppRep.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -45,8 +37,8 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClientServer/src/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71875">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.915625">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -786,12 +778,12 @@
       <option name="number" value="Default" />
       <updated>1463841771948</updated>
       <workItem from="1463841775558" duration="5749000" />
-      <workItem from="1463847789933" duration="1124000" />
+      <workItem from="1463847789933" duration="1191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6873000" />
+    <option name="totallyTimeSpent" value="6940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -979,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientServer/src/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71875">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.915625">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
