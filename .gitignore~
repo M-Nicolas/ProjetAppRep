@@ -1,0 +1,4 @@
+.git/*
+.idea/*
+Registry/out/*
+*.iml
