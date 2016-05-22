@@ -65,5 +65,4 @@ public interface MusicInterface extends Remote {
      * @throws RemoteException
      */
     public JMSConnectionInformations abonnement() throws RemoteException;
-
 }
