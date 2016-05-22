@@ -1,7 +1,9 @@
 package common.serviceRMI;
 
 import common.JMSConnectionInformations;
+import common.ObjectRegistryInterface;
 import common.serializableitem.Album;
+import serveur.ServerJMS;
 
 import javax.jms.MessageProducer;
 import java.rmi.server.UnicastRemoteObject;
