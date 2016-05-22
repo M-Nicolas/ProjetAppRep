@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ClassServer/ClassServer.iml" filepath="$PROJECT_DIR$/ClassServer/ClassServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/ProjetAppRep.iml" filepath="$PROJECT_DIR$/.idea/ProjetAppRep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetAppRep.iml" filepath="$PROJECT_DIR$/ProjetAppRep.iml" />
       <module fileurl="file://$PROJECT_DIR$/Registry/Registry.iml" filepath="$PROJECT_DIR$/Registry/Registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server/Server.iml" filepath="$PROJECT_DIR$/Server/Server.iml" />
     </modules>
