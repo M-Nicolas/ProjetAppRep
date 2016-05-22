@@ -183,14 +183,30 @@ public class Market extends UnicastRemoteObject implements MusicInterface {
     }
 
     /**
+     * A method changing the state of an order
+     * @param state
+     * @param id
+     * @return
+     * @throws RemoteException
+     */
+    public boolean changeState(String state, int id) throws RemoteException {
+        if (order.get(id).equals(null)) {
+            return false;
+        } else {
+            order.put(id, state);
+            return true;
+        }
+    }
+
+    /**
      * Allows a client to ask for the creation of a Queue in order to communicate with the server
      * @return Queue Information
      * @throws RemoteException
      */
     public JMSConnectionInformations abonnement() throws RemoteException {
-        String nomQueue = "Queue_"+id;
-        prod = jms.initQueue(nomQueue);
-        infoJMSLibrairy.setNom(nomQueue);
+        String queueName = "Queue_"+id;
+        prod = jms.initQueue(queueName);
+        infoJMSLibrairy.setNom(queueName);
         return infoJMSLibrairy;
     }
 }

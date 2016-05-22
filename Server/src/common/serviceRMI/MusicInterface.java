@@ -60,6 +60,15 @@ public interface MusicInterface extends Remote {
     public String trackOrder(String trackID) throws RemoteException;
 
     /**
+     * A method changing the state of an order
+     * @param state
+     * @param id
+     * @return
+     * @throws RemoteException
+     */
+    public boolean changeState(String state, int id) throws RemoteException;
+
+    /**
      * Allows a client to ask for the creation of a Queue in order to communicate with the server
      * @return Queue Information
      * @throws RemoteException
