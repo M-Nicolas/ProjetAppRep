@@ -7,19 +7,21 @@ import java.rmi.Naming;
  */
 public class ServeurRegistry {
 
-    public ServeurRegistry() {}
+    //public ServeurRegistry() {}
 
-    private void initialize() {
+    public void initialize() {
         try {
             System.out.println("Object in creation...");
 
+            if(System.getSecurityManager() == null){
+                System.out.println("init SecurityManager");
+                System.setSecurityManager(new SecurityManager());
+            }
+
             ObjectRegistry objectRegistry = new ObjectRegistry();
 
-            Naming.rebind("rmi://localhost:4000/ObjectRegistry", objectRegistry);
-
-            System.err.println("Server ready");
+            Naming.rebind("rmi://localhost:4001/ObjectRegistry", objectRegistry);
         } catch (Exception e) {
-            System.err.println("Server exception: " + e.toString());
             e.printStackTrace();
         }
     }

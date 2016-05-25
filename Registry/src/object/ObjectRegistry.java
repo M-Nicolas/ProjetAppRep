@@ -6,12 +6,13 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 
+@SuppressWarnings("serial")
 /**
  * Created by Sarah on 21/05/16.
  */
 public class ObjectRegistry extends UnicastRemoteObject implements ObjectRegistryInterface {
 
-    private ObjectSharedBase objectSharedBase;
+    ObjectSharedBase objectSharedBase;
 
     public ObjectRegistry() throws RemoteException {
         super();
