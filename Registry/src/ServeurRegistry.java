@@ -7,8 +7,6 @@ import java.rmi.Naming;
  */
 public class ServeurRegistry {
 
-    //public ServeurRegistry() {}
-
     public void initialize() {
         try {
             System.out.println("Object in creation...");
