@@ -97,7 +97,7 @@ public class ClassFileServer extends ClassServer {
    */
   public static void main(String args[]) {
     int port = 0;
-    String classpath = null;
+    String classpath = "out/production/Server:out/production/Client";
     if (args.length >= 1) {
       port = Integer.parseInt(args[0]);
     }

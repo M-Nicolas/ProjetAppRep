@@ -40,7 +40,6 @@ public class ApplicationMarket {
 
             ObjectRegistryInterface myRMI = (ObjectRegistryInterface) Naming.lookup("rmi://localhost:4100/ObjectRegistry");
 
-
             Market market = new Market(myRMI, infoJMSMarket, jms);
             Naming.rebind("rmi://localhost:1101/Service",(MusicInterface) market);
             myRMI.bind("Market", market);
