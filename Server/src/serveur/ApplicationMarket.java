@@ -1,7 +1,9 @@
 package serveur;
 
-import common.InfoJMSConnection;
+import common.JMSConnectionInformations;
 import common.ObjectRegistryInterface;
+import common.serviceRMI.Market;
+import common.serviceRMI.MusicInterface;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
@@ -13,7 +15,7 @@ import java.rmi.RemoteException;
  */
 public class ApplicationMarket {
 
-    private InfoJMSConnection infoJMSMarket = new InfoJMSConnection();
+    private JMSConnectionInformations infoJMSMarket = new JMSConnectionInformations();
 
     public static void main(String[] args) {
         ApplicationMarket server = new ApplicationMarket();
@@ -38,10 +40,9 @@ public class ApplicationMarket {
 
             ObjectRegistryInterface myRMI = (ObjectRegistryInterface) Naming.lookup("rmi://localhost:4100/ObjectRegistrty");
 
-
             Market market = new Market(myRMI, infoJMSMarket, jms);
             Naming.rebind("rmi://localhost:1101/Service",(MusicInterface) market);
-            myRMI.rebind("Market", market);
+            myRMI.bind("Market", market);
 
 
         } catch (RemoteException | MalformedURLException e) {

@@ -55,6 +55,4 @@ public interface ObjectRegistryInterface extends Remote {
      * @throws RemoteException
      */
     String mostRequestedKey() throws RemoteException;
-
-
 }
